@@ -6,3 +6,6 @@ Takes in email address, grabs all local groups the user is a member of and remov
 
 [Add a domain or email address to Office365 Exchange spam filter "whitelist"](https://github.com/zackoch/Powershell-Administration/blob/master/whitelist_o365_exchange.ps1)
 Takes in an email address or domain - make sure that you modify the admin email, as well as the name of the filter policy to match your own. I use this all the time when a user says they are not getting email from xyz, or for domains or emails that I see in the o365 quarantine that are valid emails that should be delivered.
+
+[Remove user from Global Address List](https://github.com/zackoch/Powershell-Administration/blob/master/localAD_hide_from_global_address_lists.ps1)
+Takes in an email address, and sets a localAD attribute to hide the user from the GAL. It needs to sync to o365 if you're in a hybrid enviornment in order for it to take effect. Be sure to change the domain controller to your own.
