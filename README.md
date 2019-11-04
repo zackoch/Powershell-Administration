@@ -31,3 +31,6 @@ Takes in an email address, changes the users password to a randomly generated on
 
 [Kill all AzureAD user sessions](https://github.com/zackoch/Powershell-Administration/blob/master/kill_all_azureAD_sessions.ps1)
 Takes in an email address, and kills any active sessions which utilize Azure AD. This is used to terminate outstanding sessions for offboarding. It's also used in conjunction with a password change to ensure the user can't log in to anything further. Be sure to change the globaladmin variable. 
+
+[Recover deleted OneDrive files (up to 93 days)](https://github.com/zackoch/Powershell-Administration/blob/master/recover_deleted_onedrive_files.ps1)
+Takes in an email address and the number of historical days back to recover data from. The maximum date you can recover files from will be 93 days prior to the current date. This script is useful for those users who attempt to delete everything from their OneDrives prior to leaving the org. Be sure to chang ethe admin email.
