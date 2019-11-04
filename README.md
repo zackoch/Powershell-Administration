@@ -18,3 +18,6 @@ Takes in an email address, clears the ad attributes for Department, Description,
 
 [Remove O365 user from all groups](https://github.com/zackoch/Powershell-Administration/blob/master/remove_o365_user_from_all_groups.ps1)
 Takes in an email address, iterates through all the groups and group members and then removes the user from each group where the member exists. Be sure to change the admin email.
+
+[Force O365 user password change (and email it to admin)](https://github.com/zackoch/Powershell-Administration/blob/master/force_change_o365_user_password.ps1)
+Takes in an email address, changes the users password to a randomly generated one. Should be used right before you remove user tokens or run the [Kill all AzureAD sessions](https://github.com) script. Note: Since this sends an email to admins with the actual password, this should really only be used if you plan on removing the account. It could be considered a security risk to store 'valid' passwords in mailboxes. The only reason the password gets changed in my case is to ensure the user is locked out of all resources. The users account would be invalidated after the offboarding is complete. Be sure to change the email_from, email_to, smtp_server, and globaladmin variables.
