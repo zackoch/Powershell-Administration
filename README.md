@@ -12,3 +12,6 @@ Takes in an email address, and sets a localAD attribute to hide the user from th
 
 [Disable localAD user account](https://github.com/zackoch/Powershell-Administration/blob/master/disable_localad_account.ps1)
 Takes in an email address, disables the user account in AD. Make sure you change the domain controller to your own.
+
+[Strip localAD user account](https://github.com/zackoch/Powershell-Administration/blob/master/strip_user_localad_account.ps1)
+Takes in an email address, clears the ad attributes for Department, Description, DisplayName, extensionAttribute1, mail, Manager, physicalDeliveryOfficeName, telephoneNumber, Title, Mobile, and Company. Be sure to change the domain controller name to your own.
