@@ -15,3 +15,6 @@ Takes in an email address, disables the user account in AD. Make sure you change
 
 [Strip localAD user account](https://github.com/zackoch/Powershell-Administration/blob/master/strip_user_localad_account.ps1)
 Takes in an email address, clears the ad attributes for Department, Description, DisplayName, extensionAttribute1, mail, Manager, physicalDeliveryOfficeName, telephoneNumber, Title, Mobile, and Company. Be sure to change the domain controller name to your own.
+
+[Remove O365 user from all groups](https://github.com/zackoch/Powershell-Administration/blob/master/remove_o365_user_from_all_groups.ps1)
+Takes in an email address, iterates through all the groups and group members and then removes the user from each group where the member exists. Be sure to change the admin email.
