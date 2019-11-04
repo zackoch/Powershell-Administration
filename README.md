@@ -9,3 +9,6 @@ Takes in an email address or domain - make sure that you modify the admin email,
 
 [Remove user from Global Address List](https://github.com/zackoch/Powershell-Administration/blob/master/localAD_hide_from_global_address_lists.ps1)
 Takes in an email address, and sets a localAD attribute to hide the user from the GAL. It needs to sync to o365 if you're in a hybrid enviornment in order for it to take effect. Be sure to change the domain controller to your own.
+
+[Disable localAD user account](https://github.com/zackoch/Powershell-Administration/blob/master/disable_localad_account.ps1)
+Takes in an email address, disables the user account in AD. Make sure you change the domain controller to your own.
