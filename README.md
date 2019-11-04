@@ -1,5 +1,9 @@
 # Powershell-Administration
-Powershell scripts I've created for administering IT - some of these are specific to my use, so please read the code and determine if it will work for you.
+Powershell scripts I've created for administering various IT functions - some of these are specific to my use, so please read the code and determine if it will work for you.
+
+Note - for some of these scripts to work you need to have the [office365 modules](https://docs.microsoft.com/en-us/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window) installed.
+
+Not everything will be related to local AD or Azure AD - I'll put whatever scripts I write in here that I find I'm using often. They could be random snippets, deployment stuff, etc. If I find it gets too big, I'll split everything into folders.
 
 [Remove a user from all Local AD Groups](https://github.com/zackoch/Powershell-Administration/blob/master/remove_user_from_all_localAD_groups.ps1)
 Takes in email address, grabs all local groups the user is a member of and removes them from those groups. Be sure to change the name of the domain controller.
