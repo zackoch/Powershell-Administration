@@ -43,3 +43,6 @@ Takes in an email address for the user, an email address for who you want to giv
 
 [Forward and Un-Forward O365 Email](https://github.com/zackoch/Powershell-Administration/blob/master/forward_o365_user_email.ps1)
 Choose to add a new forward, or remove an existing (just sets to $null), takes in users email, and forwarding email if necessary. Note: you can change the boolean value on the DeliverToMailboxAndForward to $false if you don't want the email to get stored in the users inbox before it is forwarded to the forward address. Be sure to change the admin email. 
+
+[Disable ActiveSync for O365 User](https://github.com/zackoch/Powershell-Administration/blob/master/disable_activesync_o365_user.ps1)
+Takes in the users email, disables active sync. Note: You can change the -ActiveSyncEnabled $false boolean value to $true if you want to re-enable ActiveSync. Be sure to change the admin email address.
