@@ -46,3 +46,6 @@ Choose to add a new forward, or remove an existing (just sets to $null), takes i
 
 [Disable ActiveSync for O365 User](https://github.com/zackoch/Powershell-Administration/blob/master/disable_activesync_o365_user.ps1)
 Takes in the users email, disables active sync. Note: You can change the -ActiveSyncEnabled $false boolean value to $true if you want to re-enable ActiveSync. Be sure to change the admin email address.
+
+[Convert O365 Mailbox to Shared](https://github.com/zackoch/Powershell-Administration/blob/master/convert_o365_mailbox_to_shared.ps1)
+Takes in the users email address, converts the mailbox to a shared mailbox. Be sure to change the admin email address.
