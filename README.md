@@ -49,3 +49,6 @@ Takes in the users email, disables active sync. Note: You can change the -Active
 
 [Convert O365 Mailbox to Shared](https://github.com/zackoch/Powershell-Administration/blob/master/convert_o365_mailbox_to_shared.ps1)
 Takes in the users email address, converts the mailbox to a shared mailbox. Be sure to change the admin email address.
+
+[Spam Filter - Export & Import Permitted Domains](https://github.com/zackoch/Powershell-Administration/blob/master/spam_filter_export_import_allowed_domains.ps1)
+Upon exporting (choosing 'e'), it creates two CSV's - one is an export 'backup', the other is your import file you may modify and import by re-running the script and choosing 'i'
