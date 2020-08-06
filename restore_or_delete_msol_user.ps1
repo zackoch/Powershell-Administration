@@ -31,7 +31,7 @@ function Perm-Delete {
 
 }
 
-function Restrore-User {
+function Restore-User {
     $username = read-host -prompt "Enter Username"
     write-host "Restoring user" $username
     Restore-MsolUser -UserPrincipalName $username
