@@ -54,4 +54,4 @@ Takes in the users email address, converts the mailbox to a shared mailbox. Be s
 Upon exporting (choosing 'e'), it creates two CSV's - one is an export 'backup', the other is your import file you may modify and import by re-running the script and choosing 'i'
 
 [List, Restore, Recycle, or Delete user from Recycle Bin](https://github.com/zackoch/Powershell-Administration/blob/master/restore_or_delete_msol_user.ps1)
-In practice you really shouldn't remove users from the recycle bin unless for some reason you know for certian you won't need to restore the user within 30 days. This script is just a wrapper for basic management tasks as it relates to managing deleted users. You'll need to connect to O365 powershell outside the script as this won't handle it for you.
+In practice you really shouldn't remove users from the recycle bin unless for some reason you know for certain you won't need to restore the user within 30 days. This script is just a wrapper for basic management tasks as it relates to managing deleted users. You'll need to connect to O365 powershell outside the script as this won't handle it for you.
